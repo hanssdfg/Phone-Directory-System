@@ -1,0 +1,82 @@
+# Menu Options
+1. Add Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. Display Contacts
+6. Exit
+
+# Test Cases for Phone Directory System
+
+## Test Case 1 - Add Contact
+### Input:
+1
+Emily Carter
+9876543210
+
+### Expected Output:
+Contact added successfully!
+
+---
+
+## Test Case 2 - Add Another Contact
+### Input:
+1
+Liam Johnson
+8765432109
+
+### Expected Output:
+Contact added successfully!
+
+---
+
+## Test Case 3 - Search Contact
+### Input:
+2
+Emily Carter
+
+### Expected Output:
+Name: Emily Carter, Phone: 9876543210
+
+---
+
+## Test Case 4 - Update Contact
+### Input:
+3
+Liam Johnson
+Liam J.
+7654321098
+
+### Expected Output:
+Contact updated successfully!
+
+---
+
+## Test Case 5 - Delete Contact
+### Input:
+4
+Emily Carter
+
+### Expected Output:
+Contact deleted successfully!
+
+---
+
+## Test Case 6 - Display Contacts (After Adding 3 Contacts)
+### Input:
+5
+
+### Expected Output:
+Name: Ava Thompson, Phone: 1234567890  
+Name: Noah Williams, Phone: 2345678901  
+Name: Sophia Martinez, Phone: 3456789012  
+
+---
+
+## Test Case 7 - Search Non-Existing Contact
+### Input:
+2
+David Miller
+
+### Expected Output:
+Contact not found!
